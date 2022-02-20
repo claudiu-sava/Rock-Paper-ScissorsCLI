@@ -20,13 +20,13 @@ gridFrame = Frame(window)
 # Setting the frame anchor to the top
 gridFrame.pack(side=TOP)
 
-rockImage50 = PhotoImage(file = "rock50.png")
-paperImage50 = PhotoImage(file = "paper50.png")
-scissorsImage50 = PhotoImage(file = "scissors50.png")
+rockImage50 = PhotoImage(file = "img/rock50.png")
+paperImage50 = PhotoImage(file = "img/paper50.png")
+scissorsImage50 = PhotoImage(file = "img/scissors50.png")
 
-rockImage100 = PhotoImage(file = "rock100.png")
-paperImage100 = PhotoImage(file = "paper100.png")
-scissorsImage100 = PhotoImage(file = "scissors100.png")
+rockImage100 = PhotoImage(file = "img/rock100.png")
+paperImage100 = PhotoImage(file = "img/paper100.png")
+scissorsImage100 = PhotoImage(file = "img/scissors100.png")
 
 def pcGenerate(userChoice, points):
   choices = ["rock", "paper", "scissors"]
