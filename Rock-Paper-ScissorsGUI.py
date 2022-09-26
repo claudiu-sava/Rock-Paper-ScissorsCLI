@@ -12,7 +12,7 @@ window.geometry("400x300")
 window.resizable(False, False)
 
 # The main title
-label = Label(window, text="Password Generator", font=(None, 15), height=2, fg="black")
+label = Label(window, text="Rock, Paper, Scissors!", font=(None, 15), height=2, fg="black")
 # Align the text to the top of page
 label.pack(side=TOP)
 # frame for items (without title)
